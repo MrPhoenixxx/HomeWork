@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot?90758171');
+  src: url('../font/iconfont.eot?90758171#iefix') format('embedded-opentype'),
+       url('../font/iconfont.woff2?90758171') format('woff2'),
+       url('../font/iconfont.woff?90758171') format('woff'),
+       url('../font/iconfont.ttf?90758171') format('truetype'),
+       url('../font/iconfont.svg?90758171#iconfont') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "iconfont";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-info:before { content: '\e801'; } /* '' */

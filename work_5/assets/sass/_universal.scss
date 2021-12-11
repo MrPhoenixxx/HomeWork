@@ -1,0 +1,70 @@
+html, body {
+  -webkit-font-smoothing: antialiased;
+}
+body::-webkit-scrollbar {
+  height: 0;
+  width: 10px;
+  background-color: transparent;
+}
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: rgba(13, 13, 88, .7);
+}
+.container {
+  width: 89%;
+  margin: 0 auto;
+}
+.hero {
+  background-image: linear-gradient(to bottom, rgb(255,249,241), rgba(255, 0, 0, .1));
+}
+.text-yellow .svg-fill {
+  fill: #fcd49b;
+}
+.text-red .svg-fill {
+  fill: #eea1a6;
+}
+.text-green .svg-fill {
+  fill: #a6d8c8;
+}
+.text-blue .svg-fill {
+  fill: #8caeec;
+}
+svg {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 15px;
+}
+.card {
+  width: 259px;
+  height: 370px;
+  box-shadow: 0 4px 20px rgba(30,34,40,.07)!important;
+  box-shadow:
+    0px 0px 2.2px rgba(30,34,40,.07),
+    0px 0px 5.3px rgba(30,34,40,.07),
+    0px 0px 10px rgba(30,34,40,.07),
+    0px 0px 17.9px rgba(30,34,40,.07),
+    0px 0px 33.4px rgba(30,34,40,.07),
+    0px 0px 80px rgba(30,34,40,.07)
+  ;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 40px;
+}
+.upSticky {
+  z-index: 100000;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  border: 2px solid #DEDEDD;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  i {
+    color: #FAB758;
+    vertical-align: middle;
+  }
+}

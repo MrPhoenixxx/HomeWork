@@ -1,0 +1,94 @@
+.section2 {
+  .container {
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .section2-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h2 {
+        margin-bottom: 15px;
+        font-size: 16px;
+        color: #aab0bc!important;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+      h3 {
+        margin-bottom: 50px;
+        line-height: 1.25;
+        font-size: 37px;
+        width: 630px;
+        text-align: center;
+        color: #343f52;
+      }
+    }
+    .section2-cards {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h4 {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 1.45;
+          margin-bottom: 10px;
+          color: #343f52;
+          white-space: nowrap;
+        }
+        p {
+          color: #60697b;
+          font-size: 18px;
+          line-height: 1.7;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        a {
+          display: flex;
+          align-items: center;
+          padding: 8px 0;
+          font-weight: 700;
+          position: relative;
+          overflow: hidden;
+          &.cardLink1 {
+            color: #fab758;
+          }
+          &.cardLink2 {
+            color: #e2626b;
+          }
+          &.cardLink3 {
+            color: #6bbea3;
+          }
+          &.cardLink4 {
+            color: #3f78e0;
+          }
+          &::before {
+            content: '';
+            width: 100px;
+            height: 1.4px;
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            transform-origin: right;
+            background: currentColor;
+            transform: scaleX(0);
+            transition: transform .5s cubic-bezier(.7,0,.2,1);
+          }
+          &:hover::before {
+            transform-origin: left;
+            transform: scaleX(1);
+          }
+          i {
+            margin: 1px 0 0 4px;
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

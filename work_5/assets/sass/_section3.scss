@@ -1,0 +1,102 @@
+.section3 {
+  .container {
+    padding: 160px 0;
+    display: flex;
+    justify-content: space-between;
+    .section3-content {
+      padding: 0 20px;
+      min-width: 462px !important;
+      width: 467px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h2 {
+        color: #aab0bc!important;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-size: 38px;
+        line-height: 1.25;
+        font-weight: 700;
+        color: #343f52;
+        margin-bottom: 25px;
+      }
+      p {
+        margin-bottom: 35px;
+        font-size: 18px;
+        line-height: 1.6;
+        color: #60697b;
+      }
+      form {
+        display: flex;
+        position: relative;
+        height: 50px;
+        color: #60697b;
+        input {
+          box-shadow:
+            0px 0px 80px rgba(0, 0, 0, 0.07)
+          ;
+          border: 1px solid rgba(8,60,130,.06);
+          width: 205px;
+          height: 100%;
+          padding: 12px 20px;
+          display: block;
+          color: #60697b;
+          border-radius: 5px 0 0 5px;
+          &:focus {
+            padding-top: 30px !important; 
+          }
+          &:focus + label {
+            font-size: 11px;
+            font-weight: 500;
+            transform: translateY(-10px);
+          }
+        }
+        label {
+          transition: all .1s;
+          font-weight: 500;
+          color: #959ca9;
+          position: absolute;
+          padding: 12px 20px;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          cursor: text;
+          font-size: 14px;
+        }
+        button {
+          height: 100%;
+          width: 102px;
+          border-color: #fab758;
+          background-color: #fab758;
+          color: #fff;
+          transition: all .2s;
+          font-size: 17px;
+          padding: 10px 24px;
+          font-weight: 600;
+          border-radius: 0 5px 5px 0;
+          cursor: pointer;
+          &:hover {
+            box-shadow:
+              0px 0px 5.3px rgba(0, 0, 0, 0.162),
+              0px 0px 17.6px rgba(0, 0, 0, 0.238),
+              0px 0px 79px rgba(0, 0, 0, 0.4)
+            ;
+          }
+        }
+      }
+    }
+    .section3-img {
+      padding: 0 20px;
+      figure {
+        img {
+          width: 618px;
+          height: 443px;
+        }
+      }
+    }
+  }
+}
