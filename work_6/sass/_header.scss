@@ -1,0 +1,85 @@
+.header {
+  display: flex;
+  height: 80px;
+  border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+  background-color: rgb(6, 6, 6);
+  position: sticky;
+  top: 0;
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .logo-bar {
+      display: flex;
+      align-items: center;
+      figure {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 130px;
+          height: 45px;
+        }
+      }
+    }
+    .menu-bar {
+      display: flex;
+      align-items: center;
+      nav {
+        height: 80px;
+        display: flex;
+        .navbar {
+          display: flex;
+          li {
+            display: flex;
+            align-items: center;
+            a {
+              padding: 0 17px;
+              font-weight: 500;
+              color: #acacac;
+              transition: all .2s;
+              &:hover {
+                color: #059dff;
+              }
+            }
+          }
+        }
+      }
+      .buyNow-button {
+        height: 40px;
+        font-size: 14px;
+        padding: 0 20px;
+        background: linear-gradient(95deg ,#059dff 15%,#6549d5 45%,#e33fa1 75%,#fb5343) 95%/200% 100%;
+        margin-left: 30px;
+        text-transform: uppercase;
+        border-radius: 100px;
+        font-weight: 500;
+        border: 2px solid transparent;
+        color: #fff;
+        display: grid;
+        place-items: center;
+        transition: all .3s;
+        &:hover {
+          filter: brightness(125%);
+          box-shadow: 0 0 20px 5px rgba(251,83,67,0.2);
+        }
+      }
+      button {
+        background-color: #fb5343;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        margin-left: 10px;
+        
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
+}
