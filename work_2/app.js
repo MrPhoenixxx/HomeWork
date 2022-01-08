@@ -2,7 +2,7 @@ let countries;
 const tbody = document.querySelector("tbody")
 
 fetch("https://restcountries.com/v3.1/all")
-.then(res => res.json()).then(arr => initalize(arr))
+.then(res => res.json()).then(arr => initalize(arr)).catch(err => console.log(err))
 
 function initalize(countriesData) {
   countriesData.splice(242, 1)

@@ -5,6 +5,7 @@
   background-color: rgb(6, 6, 6);
   position: sticky;
   top: 0;
+  z-index: 10;
   .container {
     width: 90%;
     margin: 0 auto;
@@ -59,7 +60,7 @@
         color: #fff;
         display: grid;
         place-items: center;
-        transition: all .3s;
+        transition: filter .3s, box-shadow .3s;
         &:hover {
           filter: brightness(125%);
           box-shadow: 0 0 20px 5px rgba(251,83,67,0.2);
@@ -74,10 +75,13 @@
         width: 40px;
         height: 40px;
         margin-left: 10px;
-        
-        svg {
+        cursor: pointer;
+        .active {
           width: 18px;
           height: 18px;
+        }
+        .inActive {
+          display: none;
         }
       }
     }

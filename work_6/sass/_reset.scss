@@ -10,9 +10,39 @@
   text-decoration: none;
 }
 .hero {
-  height: 2000px;
   background-color: rgb(6, 6, 6);
 }
 .hero.dark {
   filter: invert(1);
+  header {
+    img {
+      filter: invert(1);
+    }
+    .buyNow-button {
+      filter: invert(1);
+      &:hover {
+        filter: invert(1) !important;
+      }
+    }
+    button {
+      filter: invert(1);
+    }
+    svg {
+      filter: invert(1);
+    }
+  }
+  .section1 {
+    img {
+      filter: invert(1);
+    }
+    .gradient {
+      filter: invert(1);
+    }
+    a {
+      filter: invert(1);
+      &:hover {
+        filter: invert(1) !important;
+      }
+    }
+  }
 }
