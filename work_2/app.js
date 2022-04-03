@@ -25,6 +25,9 @@ function initalize(countriesData) {
       </tr>
     `
   }
+  document.querySelector(".loading-bar").style.display = "none"
+  document.querySelector(".down-icon").style.display = "flex"
+  
 }
 
 document.querySelector(".down-icon").addEventListener('click', () => {

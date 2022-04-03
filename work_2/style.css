@@ -1,51 +1,68 @@
 * {
-    margin: 0 !important;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 20px;
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
 }
-html, body {
-    height: auto;
-    width: auto;
+html,
+body {
+  height: auto;
+  width: auto;
 }
 .hero {
-    height: 100%;
+  height: 100%;
 }
 .min-height {
-    overflow: hidden;
-    height: 569px;
+  overflow: hidden;
+  height: 569px;
 }
 .full-height {
-    height: 100% !important;
+  height: 100% !important;
 }
 .full-height + .down-icon i {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .down-icon {
-    cursor: pointer;
-    background-color: #e2e3e5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 30px;
-    border-radius: 0 0 10px 10px;
-    position: absolute;
-    left: 50%;
+  cursor: pointer;
+  background-color: #e2e3e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  left: 50%;
 }
 .down-icon:hover {
-    background-color: #d7d8da;
+  background-color: #d7d8da;
 }
 i {
-    font-size: 30px;
-    color: darkslateblue;
+  font-size: 30px;
+  color: darkslateblue;
 }
 img.flag {
-    width: 100px;
-    height: 50px;
+  width: 100px;
+  height: 50px;
 }
 img.arms {
-    width: 60px;
-    height: 60px;
+  width: 60px;
+  height: 60px;
+}
+.loading-bar {
+  width: 50px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+}
+.loading-bar i {
+  animation: spinner 1s infinite linear;
+  font-size: 50px;
+}
+@keyframes spinner {
+  100% {
+      transform: rotate(1turn);
+  }
 }

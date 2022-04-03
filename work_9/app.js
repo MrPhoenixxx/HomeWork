@@ -56,7 +56,7 @@ const data = {
       "https://cdn.akamai.steamstatic.com/steam/apps/1846990/capsule_184x69.jpg?t=1643990023https://cdn.akamai.steamstatic.com/steam/apps/1793350/capsule_184x69.jpg?t=1644018884",
     csgo: "https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_184x69.jpg?t=1641233427",
     apexLegends:
-      "https://cdn.akamai.steamstatic.com/steam/apps/1172470/capsule_184x69.jpg?t=1638900075"
+      "https://cdn.akamai.steamstatic.com/steam/apps/730/capsule_184x69.jpg?t=1641233427"
   },
   name: {
     blueFire: "Blue Fire: Void Maker",
