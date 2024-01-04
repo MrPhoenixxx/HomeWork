@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.min.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <div class="container">
+        <div class="logo">
+          <a href="#" class="logo-link">
+            <figure>
+              <img src="./assets/logo.png" alt="bank logo" />
+            </figure>
+          </a>
+        </div>
+
+        <div class="call">
+          <figure>
+            <img src="./assets/phoneIcon.svg" alt="phone Icon" />
+          </figure>
+          <div>132</div>
+        </div>
+
+        <div class="search">
+          <div class="search-icon">
+            <img src="./assets/searchIcon.svg" alt="search" />
+          </div>
+          <input class="input" type="text" placeholder="Search" />
+        </div>
+
+        <div class="icons">
+          <!-- Left-icons -->
+          <div class="left-icons">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./assets/statisticsIcon.svg" alt="statistics" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/cartIcon.svg" alt="cart" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/keyIcon.svg" alt="key" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- Right-icons -->
+          <div class="right-icons">
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="./assets/usersIcon.svg" alt="users" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/settingIcon.svg" alt="setting" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/letterIcon.svg" alt="letter" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="./assets/bellIcon.svg" alt="notification" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="profile">
+          <strong>Ilya Davidova</strong>
+          <div>Apple INC, Admin</div>
+        </div>
+
+        <div class="logout">
+          <img src="./assets/exitIcon.svg" alt="logout" />
+        </div>
+      </div>
+    </header>
+
+    <div class="hero-wrapper">
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <ul>
+          <li class="dashboard">
+            <a href="#">
+              <div class="dashboard-icon icon">
+                <img src="./assets/Ellipse.svg" alt="dashboard" />
+                <img src="./assets/dashboardVector.svg" alt="dashboard" />
+              </div>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li class="payment">
+            <a href="#">
+              <div class="payment-icon icon">
+                <img src="./assets/paymentIcon.svg" alt="payment" />
+              </div>
+              <span>Payments</span>
+            </a>
+          </li>
+          <li class="payroll">
+            <a href="#">
+              <div class="payroll-icon icon">
+                <img src="./assets/payrollIcon.svg" alt="payroll" />
+              </div>
+              <span>Payroll</span>
+            </a>
+          </li>
+          <li class="template">
+            <a href="#">
+              <div class="template-icon icon">
+                <img src="./assets/Ellipse.svg" alt="template" />
+                <img src="./assets/templateVector.svg" alt="template" />
+              </div>
+              <span>Templates</span>
+            </a>
+          </li>
+          <li class="history">
+            <a href="#">
+              <div class="history-icon icon">
+                <img src="./assets/clockIcon.svg" alt="history" />
+              </div>
+              <span>History</span>
+            </a>
+          </li>
+          <li class="product">
+            <a href="#">
+              <div class="product-icon icon">
+                <img src="./assets/productIcon.svg" alt="product" />
+              </div>
+              <span>Products</span>
+            </a>
+          </li>
+          <li class="pos">
+            <a href="#">
+              <div class="pos-icon icon">
+                <img src="./assets/Ellipse.svg" alt="POS" />
+                <img src="./assets/posVector.svg" alt="POS" />
+              </div>
+              <span>Express POS</span>
+            </a>
+          </li>
+          <li class="ani-pay">
+            <a href="#">
+              <div class="ani-pay-icon icon">
+                <img src="./assets/Ellipse.svg" alt="ani pay" />
+                <img src="./assets/aniPayVector.svg" alt="ani pay" />
+              </div>
+              <span>Ani Pay</span>
+            </a>
+          </li>
+          <li class="map icon">
+            <a href="#">
+              <div class="map-icon">
+                <img src="./assets/Ellipse.svg" alt="map" />
+                <img src="./assets/mapVector.svg" alt="map" />
+              </div>
+              <span>Map</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
+      <!-- Main -->
+      <main id="main">
+        <!-- Banner -->
+        <div class="banner">
+          <div class="container">
+            <div>
+              <span>На подпись</span>
+              <div class="badge">5</div>
+            </div>
+            <div>
+              <span>Отправленные в банк</span>
+              <div class="badge">25</div>
+            </div>
+            <div>
+              <span>Исполненные</span>
+              <div class="badge">225</div>
+            </div>
+            <div>
+              <span>Отклоненные</span>
+              <div class="badge">1524</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+          <div class="container">
+            <div class="content-header">
+              <h3 class="title">Cards</h3>
+              <div class="filter">
+                <div class="btn active">All</div>
+                <div class="btn">
+                  <span class="currency">USD</span>
+                  <span>$ 2 000 000</span>
+                </div>
+                <div class="btn">
+                  <span class="currency">RUR</span>
+                  <span>50 000 000 ₽</span>
+                </div>
+                <div class="btn">
+                  <span class="currency">AZN</span>
+                  <span>50 000 ₼</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>
+                      Kartın adı
+                      <img src="./assets/filterIcon.svg" alt="filter" />
+                    </th>
+                    <th>Kartın nömrəsi</th>
+                    <th>Status</th>
+                    <th>növü</th>
+                    <th>bitmə tarixi</th>
+                    <th>balans</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Classic Premium</td>
+                    <td>4353 54** **** 5465</td>
+                    <td>Aktiv</td>
+                    <td>
+                      <img
+                        src="./assets/mastercardLogo.svg"
+                        alt="master card"
+                      />
+                    </td>
+                    <td>10/19</td>
+                    <td>20 500 000 ₼</td>
+                    <td>
+                      <img src="./assets/threeDotIcon.svg" alt="three dot" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Classic Premium</td>
+                    <td>4353 54** **** 5465</td>
+                    <td>Aktiv</td>
+                    <td>
+                      <img
+                        src="./assets/mastercardLogo.svg"
+                        alt="master card"
+                      />
+                    </td>
+                    <td>10/19</td>
+                    <td>20 500 000 ₼</td>
+                    <td>
+                      <img src="./assets/threeDotIcon.svg" alt="three dot" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Classic Premium</td>
+                    <td>4353 54** **** 5465</td>
+                    <td>Aktiv</td>
+                    <td>
+                      <img
+                        src="./assets/mastercardLogo.svg"
+                        alt="master card"
+                      />
+                    </td>
+                    <td>10/19</td>
+                    <td>20 500 000 ₼</td>
+                    <td>
+                      <img src="./assets/threeDotIcon.svg" alt="three dot" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Classic Premium</td>
+                    <td>4353 54** **** 5465</td>
+                    <td>Aktiv</td>
+                    <td>
+                      <img
+                        src="./assets/mastercardLogo.svg"
+                        alt="master card"
+                      />
+                    </td>
+                    <td>10/19</td>
+                    <td>20 500 000 ₼</td>
+                    <td>
+                      <img src="./assets/threeDotIcon.svg" alt="three dot" />
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Classic Premium</td>
+                    <td>4353 54** **** 5465</td>
+                    <td>Aktiv</td>
+                    <td>
+                      <img
+                        src="./assets/mastercardLogo.svg"
+                        alt="master card"
+                      />
+                    </td>
+                    <td>10/19</td>
+                    <td>20 500 000 ₼</td>
+                    <td>
+                      <img src="./assets/threeDotIcon.svg" alt="three dot" />
+                    </td>
+                  </tr>
+                  <tr class="last">
+                    <td>Classic Premium</td>
+                    <td>4353 54** **** 5465</td>
+                    <td>Aktiv</td>
+                    <td>
+                      <img
+                        src="./assets/mastercardLogo.svg"
+                        alt="master card"
+                      />
+                    </td>
+                    <td>10/19</td>
+                    <td>20 500 000 ₼</td>
+                    <td>
+                      <img src="./assets/threeDotIcon.svg" alt="three dot" />
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+@import 'mixins';
+
+#sidebar {
+  width: 130px;
+  min-width: 130px;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    li {
+      @include flex;
+      width: 130px;
+      height: 90px;
+      a {
+        @include flex;
+        flex-direction: column;
+        gap: 8px;
+        text-decoration: none;
+        span {
+          width: max-content;
+          font-weight: 400;
+          font-size: 0.875rem;
+          letter-spacing: 0.05rem;
+          color: #616173;
+        }
+      }
+    }
+  }
+}
+
+.dashboard-icon,
+.template-icon,
+.pos-icon,
+.ani-pay-icon,
+.map-icon {
+  position: relative;
+  img {
+    &:last-child {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}

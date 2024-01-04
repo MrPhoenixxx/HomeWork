@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "porxima-reg";
+  src: url("./assets/fonts/proximaNova/ProximaNova-Regular.woff") format("woff");
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "./sass/reset";
+@import "./sass/header";
+@import "./sass/sidebar";
+@import "./sass/main"
