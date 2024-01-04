@@ -1,6 +1,6 @@
-# UI App Clone Template
+# Minimal UI Apps
 ## Overview
-Welcome to the UI-App-Clone Template! This repository is dedicated to providing easy-to-use templates for creating minimalist and sleek user interfaces that resemble popular applications. Our aim is to offer a starting point for developers looking to build or practice UI design with a focus on simplicity and clean aesthetics.
+This repository is dedicated to providing easy-to-use templates for creating minimalist and sleek user interfaces that resemble popular applications. Our aim is to offer a starting point for developers looking to build or practice UI design with a focus on simplicity and clean aesthetics.
 
 ## Features
 - Minimalist UI designs.
